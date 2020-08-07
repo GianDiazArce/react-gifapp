@@ -1,13 +1,52 @@
+* {
+  font-family:  Helvetica, Arial, sans-serif;
+  color:white
+}
+h2{
+  font-size: 26px;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 60px;
+  background: #4A4B58;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  color:gray;
+  font-size: 1.2rem;
+  width: 20%;
 }
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+
+  align-content: center;
+  border: 1px solid gray;
+  color: white;
+  background: black;
+  border-radius:  6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+
+}
+
+.card p{
+  padding: 5px;
+  text-align: center;
+}
+
+.card img{
+  max-height: 170px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.css-input { border-color:#cccccc; padding:5px; font-size:18px; text-align:left; border-style:groove; border-width:2px; border-radius:14px; color:#636163; box-shadow: -1px 0px 7px 0px rgba(42,42,42,.75); font-style:none; font-family:monospace;  } 
+.css-input:focus { outline:none; } 
